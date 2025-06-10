@@ -1,0 +1,82 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Back Arrow -->
+    <ImageButton
+        android:id="@+id/backArrow"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_launcher_foreground2"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_gravity="start"
+    android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/urchem_sans_regular"
+        android:gravity="center"
+        android:text="День химика"
+        android:textColor="#00955E"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="4dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вторник, 2 июня,"
+            android:fontFamily="@font/urchem_sans_regular"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvDateTimeStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 15:00"
+            android:fontFamily="@font/urchem_sans_regular"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvDateTimeFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" — 16:00"
+            android:fontFamily="@font/urchem_sans_regular"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivPreview"
+        android:layout_width="388dp"
+        android:layout_height="172dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher_event_people" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:paddingTop="8dp"
+        android:fontFamily="@font/urchem_sans_regular"
+        android:text="ОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписаниеОписание"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+</LinearLayout>
